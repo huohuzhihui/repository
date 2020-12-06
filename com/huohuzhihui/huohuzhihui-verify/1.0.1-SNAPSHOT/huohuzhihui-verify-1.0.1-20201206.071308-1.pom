@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>huohuzhihui-base</artifactId>
+        <groupId>com.huohuzhihui</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>huohuzhihui-verify</name>
+    <artifactId>huohuzhihui-verify</artifactId>
+    <version>1.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <description>系统软件证书验证模块，负责用户自定义验证规则的实现，可扩展</description>
+
+    <dependencies>
+
+        <!--引入Lic核心模块-->
+        <dependency>
+            <groupId>com.huohuzhihui</groupId>
+            <artifactId>huohuzhihui-core</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>
