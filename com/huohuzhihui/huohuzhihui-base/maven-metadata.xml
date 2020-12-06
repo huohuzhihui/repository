@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.huohuzhihui</groupId>
+  <artifactId>huohuzhihui-base</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20201206024759</lastUpdated>
+  </versioning>
+</metadata>
